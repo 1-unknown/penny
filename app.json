@@ -23,10 +23,6 @@
       }
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#0F0F1E"
-      },
       "package": "com.penny.app",
       "versionCode": 1
     },
