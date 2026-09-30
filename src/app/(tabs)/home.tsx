@@ -25,7 +25,7 @@ export default function HomeScreen() {
 
   useEffect(() => {
     updateStreak();
-  }, []);
+  }, [updateStreak]);
 
   const recentTransactions = transactions.slice(0, 5);
   const totalBudget = vibes.reduce((sum, v) => sum + v.budget, 0);
